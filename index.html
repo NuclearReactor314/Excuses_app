@@ -9,14 +9,16 @@
 
     <!-- Post Help Request Form -->
     <h2>发起求助</h2>
-    <form action="postHelp.php" method="post">
-        <textarea name="helpContent" rows="4" cols="50" placeholder="请输入您的求助信息" required></textarea>
+    <form id="helpForm">
+        <textarea id="helpContent" rows="4" cols="50" placeholder="请输入您的求助信息" required></textarea>
         <input type="submit" value="发布求助">
     </form>
 
     <!-- Display Help Requests and Replies -->
     <h2>求助信息</h2>
-    <!-- Display help requests and replies dynamically from the database -->
+    <div id="helpList"></div>
 
+    <!-- 引入前端JavaScript -->
+    <script src="frontend.js"></script>
 </body>
 </html>
