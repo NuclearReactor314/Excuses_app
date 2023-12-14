@@ -1,4 +1,4 @@
-# 借口app
+# 借口app (网页版）
 >来源：是个维维啊，颜控硫酸铜（评论区热评）
 >视频链接：https://www.bilibili.com/video/BV1mN41157US/
 
