@@ -3,7 +3,7 @@ const router = express.Router();
 
 // 检查是否为新人
 function isNewUser(userId) {
-    // 这里需要你的具体逻辑，从数据库中获取用户信息，并检查是否为新人
+    // 从数据库中获取用户信息，并检查是否为新人
     // 返回 true 或 false
 }
 
